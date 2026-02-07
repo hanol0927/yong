@@ -296,17 +296,6 @@
           }
         },
         {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 5545,
-            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/options.txt",
-            "MD5": "bb1880f315b40b272f6c3bcd013aad6e",
-            "path": "options.txt"
-          }
-        },
-        {
           "id": "Clear Glass Pack 1.20.zip",
           "name": "Clear Glass Pack 1.20.zip",
           "type": "File",
@@ -359,17 +348,6 @@
             "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/servers.dat",
             "MD5": "4218c3c59d0681e389f047d4bfa6a289",
             "path": "servers.dat"
-          }
-        },
-        {
-          "id": "ComplementaryReimagined_r5.5.1.zip",
-          "name": "ComplementaryReimagined_r5.5.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 456328,
-            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.5.1.zip",
-            "MD5": "e49c87af1c2bb64337068f6928f06bff",
-            "path": "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
           }
         }
       ]
