@@ -1,0 +1,378 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "YongTycoon-1.20.1",
+      "name": "GCMS 시즌5 용타이쿤",
+      "description": "YongTycoon Running Minecraft 1.20.1 (Fabric v0.16.14)",
+      "icon": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/Icon.png",
+      "version": "1.0.0",
+      "address": "la-2.lucystudio.kr:24327",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://hanol0927.github.io/yong/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "49c4ae1b9acd7ae5ff3a160bc4b7e757",
+                "url": "https://hanol0927.github.io/yong/repo/versions/1.20.1-fabric-0.16.14/1.20.1-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://hanol0927.github.io/yong/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://hanol0927.github.io/yong/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://hanol0927.github.io/yong/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://hanol0927.github.io/yong/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://hanol0927.github.io/yong/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://hanol0927.github.io/yong/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://hanol0927.github.io/yong/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.betterfpsdist:betterfpsdist:1.20.1-6.0@jar",
+          "name": "Better FPS distance Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22249,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/betterfpsdist-fabric-1.20.1-6.0.jar",
+            "MD5": "b68fe738fe32e3c23869df24044c2a5b"
+          }
+        },
+        {
+          "id": "kr.shihyeon:blurserveraddress:1.0.0+mc1.20.1@jar",
+          "name": "BlurServerAddress",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6738,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/blurserveraddress-1.0.0+mc1.20.1.jar",
+            "MD5": "30b840a2f3d109a49755e0ae4b66ee58"
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.2.2+1.20.1@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 395586,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/citresewn-1.2.2+1.20.1.jar",
+            "MD5": "e7cd058b8f1866b8b599abdcc830b109"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.7@jar",
+          "name": "Cupboard",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25668,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/cupboard-fabric-1.20.1-2.7.jar",
+            "MD5": "a7a05a32b4a66d64c6c050666e16d744"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.11.4@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 223261,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/dynamic-fps-3.11.4+minecraft-1.20.0-fabric.jar",
+            "MD5": "fa6fd5fb937427830cf09b7708fcdc65"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 873611,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.jar",
+            "MD5": "3a7abdac2462955c5a51af3cd14712ff"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.83.1+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1975789,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/fabric-api-0.83.1+1.20.1%20(1).jar",
+            "MD5": "93616b51e3bb4ac62ee674e94e5b55cc"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.7+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107977,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/fabric-api-0.92.7+1.20.1.jar",
+            "MD5": "789c66d62c1ef077c457a10191d7df23"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.3@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 396628,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
+            "MD5": "17d4d761778f33c006551cf9ecc78798"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 119018,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/Iceberg-1.20.1-fabric-1.1.25.jar",
+            "MD5": "063fa399d8886abc0b1b612e968b8e0b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.5.4+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 354883,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/ImmediatelyFast-Fabric-1.5.4+1.20.4.jar",
+            "MD5": "202aa275bb2332fe3a1e30ef97be56ad"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2701293,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/iris-1.7.2+mc1.20.1.jar",
+            "MD5": "fde2833d321c3f09020bd456094693d3"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209178,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.3-fabric.jar",
+            "MD5": "0daacf8f13dd33450a970601cf21d627"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63969,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/LegendaryTooltips-1.20.1-fabric-1.4.5.jar",
+            "MD5": "da13b6865a45746799f4465409509a52"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.9.0@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7205976,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/PresenceFootsteps-1.9.0.jar",
+            "MD5": "ba5824c88fbdc7a4610503397142df82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57257,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/Prism-1.20.1-fabric-1.0.5.jar",
+            "MD5": "2eed6d81c1b72c75646d33b1b5d9dcfe"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 968419,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
+            "MD5": "9880bae748957d1cb6c4de50c8e0452a"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.30@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8103826,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.30.jar",
+            "MD5": "10efc718572d137c7ba2ab386f307bba"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5545,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/options.txt",
+            "MD5": "bb1880f315b40b272f6c3bcd013aad6e",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "Clear Glass Pack 1.20.zip",
+          "name": "Clear Glass Pack 1.20.zip",
+          "type": "File",
+          "artifact": {
+            "size": 588011,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/resourcepacks/Clear%20Glass%20Pack%201.20.zip",
+            "MD5": "ea1cc5a3ef7ef52b051277d39e658ab7",
+            "path": "resourcepacks/Clear Glass Pack 1.20.zip"
+          }
+        },
+        {
+          "id": "CookieRun.zip",
+          "name": "CookieRun.zip",
+          "type": "File",
+          "artifact": {
+            "size": 581395,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/resourcepacks/CookieRun.zip",
+            "MD5": "91bea4da290045b86552e1be34f61070",
+            "path": "resourcepacks/CookieRun.zip"
+          }
+        },
+        {
+          "id": "premade texture pack 6.zip",
+          "name": "premade texture pack 6.zip",
+          "type": "File",
+          "artifact": {
+            "size": 236242,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/resourcepacks/premade%20texture%20pack%206.zip",
+            "MD5": "b16d8103c7ac30a6124e6b8a44dfde50",
+            "path": "resourcepacks/premade texture pack 6.zip"
+          }
+        },
+        {
+          "id": "resourcepack (for players)12.zip",
+          "name": "resourcepack (for players)12.zip",
+          "type": "File",
+          "artifact": {
+            "size": 488298,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/resourcepacks/resourcepack%20(for%20players)12.zip",
+            "MD5": "fc8f3bdf99ea65ea807dd410a06245aa",
+            "path": "resourcepacks/resourcepack (for players)12.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 36669,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/servers.dat",
+            "MD5": "4218c3c59d0681e389f047d4bfa6a289",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.5.1.zip",
+          "name": "ComplementaryReimagined_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456328,
+            "url": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.5.1.zip",
+            "MD5": "e49c87af1c2bb64337068f6928f06bff",
+            "path": "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

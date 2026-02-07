@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/TestRoot3/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "GCMS 시즌5 용타이쿤",
+    "description": "YongTycoon Running Minecraft 1.20.1 (Fabric v0.16.14)",
+    "icon": "https://hanol0927.github.io/yong/servers/YongTycoon-1.20.1/Icon.png",
+    "address": "la-2.lucystudio.kr:24327",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.14"
+  },
+  "untrackedFiles": []
+}
